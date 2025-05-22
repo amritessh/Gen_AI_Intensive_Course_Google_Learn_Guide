@@ -1,0 +1,37 @@
+Day 1: Foundational Models & Prompt Engineering - Explore the evolution of LLMs, from transformers to techniques like fine-tuning and inference acceleration. Get trained with the art of prompt engineering for optimal LLM interaction.
+
+
+
+Going through the foundational whitepaper on llm and text generation:
+
+https://www.kaggle.com/whitepaper-foundational-llm-and-text-generation
+
+An LLM is an advanced artificial intelligence system that specializes in processing, understanding, and generating human like text. These systems are typically implemented as a deep neural network and are trained on massive amounts of text data. This allows them to learn intricate patterns of language, giving them the ability to perform a variety of tasks, like machine translation,, creative text generation, question answering, text summarization and many more reasoning and language oriented tasks. 
+
+
+Core building blocks of LLMs, focusing on transformer architectures and their evolution from the original 'Attention is all you need' to the latest models such as Gemini. 
+
+A language model predicts the probability of a sequence of words. Commonly, when given a prefix of text, a language model assigns probabilities to subsequent words. For example, given the prefix "The most famous city in the US is ..", a language model might predict high probabilities to the words "New York" and "Los Angeles" and low probabilities. You can create a basic language model by storing an n-gram table while modern language models are often based on neural models, such as transformers. 
+
+
+transformers are a type of neural network that can process sequences of tokens in parallel thanks to the self attention mechanism. This means that transformers can better model long-term contexts and are easier to parallelize than RNNs. Transformers have become the most popular approach for sequence modeling and transduction problems in recent years. 
+
+Transformer architecture was developed at Google in 2017 for use in a translation model. It's a sequence to sequence model capable of converting sequences from one domain into sequences in another domain. 
+
+Original transformer architecture consists of two parts: an encoder and a decoder. The encoder converts the input text into a representation which is then passed to the decoder. 
+
+Transformer consists of multiple layers, a layer in neural network comprises a set of parameters that perform a specific transformation of the data. 
+
+
+Input preparation and Embedding.
+To prepare langauage inputs for transformers, we convert an input sequence into tokens and then into input embeddings. an input embedding is a high dimensional vector that represents the meaning of each token in the sentence. This embedding is then fed into the transformer for processing. Generating an input embedding involves the following steps:
+
+1. Normalization: Standardizes text by removing redundant whitespace, accents etc.
+2. Tokenization: Breaks the sentence into words or subwords and maps them to integer token IDs from a vocabulary.
+3. Embedding: Converts each token ID to its corresponding high-dimensional vector. These can be learned during the training the process.
+4. Positional Encoding: Adds information about the position of each token in the sequence to help the transformer understand word order.
+
+Multi Head attention - after converting input tokens into embedding vectors, you feed these embeddings into the multi-head attention module, self attention is a crucial mechanism in transformers; it enables them to focus on specific parts of the input sequence relevant to the task at hand and to capture long-range dependencise within sequences more effectively than traditional RNNs.
+
+understanding self-attention:
+
