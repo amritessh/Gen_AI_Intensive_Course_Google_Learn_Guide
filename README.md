@@ -1,0 +1,2 @@
+# Gen_AI_Intensive_Course_Google_Learn_Guide
+Fundamental Technologies and Techniques behind Generative AI
