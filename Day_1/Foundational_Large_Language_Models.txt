@@ -35,3 +35,14 @@ Multi Head attention - after converting input tokens into embedding vectors, you
 
 understanding self-attention:
 
+Creating queries, keys and values. 
+Calculating scores
+Normalization
+Weighted values
+
+Multi-head attention: power in diversity
+The use of multi-head attention improves the model's ability to handle complex langauge patterns and long-range dependecies.
+
+Layer Normalization and residual connections
+
+
