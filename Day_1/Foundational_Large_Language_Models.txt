@@ -44,5 +44,32 @@ Multi-head attention: power in diversity
 The use of multi-head attention improves the model's ability to handle complex langauge patterns and long-range dependecies.
 
 Layer Normalization and residual connections
+Feedforward Layer
+The encoder decoder cross attention mechanism
+
+Mixture of Experts is an architecture that combines multiples specialized sub-models to improve overall performance, particularly on complex tasks. 
+Components of MoE:
+Experts
+Gating network
+Combination mechanism
+
+Large Reasoning Models:
+Training the transformer 
+
+Training and Loss Function:
+
+
+The evolution of transformers:
+
+GPT-1
+GPT-2
+GPT-3/3.5/4
+LaMDA - Langauge Model for Dialogue Applications
+Gopher - 280 billion parameters 
+GLaM - Generalist Language Model 
+Chinchilla 
+PaLM/PaLM2 - Pathway Langauge Model
+Gemini
+Gemma
 
 
