@@ -1,0 +1,39 @@
+Remember how an LLM works; it's a prediction engine. 
+
+Prompt is an input provided to the model to generate a response or prediction.
+
+These prompts can be used to achieve various kinds of understanding and generation tasks such as text summarization, information extraction, question and answering, text classification, language or code translation, code generation and code documentation or reasoning.
+
+LLM Output configuration - once you choose model you will need to figure out the model configuration. Most LLMs come with various configuration options that control the LLM's output. Effective prompt engineering requires setting these configurations optimally for your task.
+
+Output length:
+Generating more tokens requires more computation from the LLM, leading to higher energy consumption, potentially slower response times, and higher costs.
+
+Sampling Controls: LLMs do not formally predict a single token.
+
+Temperature: 
+Temperature controls the degree of randomness in token selection. Lower temperatures are good for prompts that expect a more deterministic response, while higher temeperatures can lead to more diverse or unexpected results.
+
+Top-k and Top-P: 
+
+Nucleus sampling are two sampling settings used un LLMs to restrict the predicted next token to come from tokens with the top predicted probabilities. 
+
+Prompting Techniques:
+
+General Prompting/Zero Shot
+One-shot and Few-Shot 
+
+System, contextual and role prompting:
+Step Back Prompting 
+Chain of Thought
+Self consistency
+
+Tree of Thoughts
+ReAct(reason & act)
+
+Automatic Prompt engineering
+
+
+Code Prompting
+
+
