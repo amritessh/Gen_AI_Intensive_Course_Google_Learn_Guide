@@ -1,0 +1,68 @@
+Power of embeddings, which transform this hetergeneous data into a unified vector representation for seamless use in various applications.
+
+Why embeddings are important:
+
+In essence, embeddings are numerical representations of real-world data such as text,speech,images or videos.
+The name embeddings refers to a similar concept in mathematics where one space can be mapped, or embedded, into another space. Embeddings are expressed as low-dimensional vectors where the geometric distance between two vectors in the vector space is a projection of the relationship and semantic similarity between the two real world objects that the vectors represent. 
+
+Key applications for embeddings are retrieval and recommendations, where the results are usually selected from a massive search space of the entire internet. Today's retrieval and recommendation system's:
+1. Precomputing the embeddings for billions of items in the search space.
+2. Mapping query embeddings into the same embedding space.
+3. Efficient computing and retrieving of the items whose embeddings are the nearest neigbors of the query embeddings in the search space.
+
+Embeddings also shine in the world of multimodality. Many applications work with large amounts of data of various modalities: text, speech, image and videos to name a few. Joint embeddings are when multiple types of objects are being mapped into the same embeddings space, for example retrieving videos based on text queries. These embedding representations are designed to capture as much of the original object's characteristics as possible. 
+
+Evaluating Embedding Quality
+Precision and recall 
+Normalized Discounted Cumulative Gain(nDCG) can measure the quality of ranking
+
+Types of Embeddings:
+Text Embeddings - used extensively as part of NLP. They are often used to embed the meaning of the natural langauge in machine learning for processing in various downstream applications such as text generation, classification, sentiment analysis and more. These embeddings broadly fall into two categories: token/word and document embeddings. 
+
+Text->Tokenization->Indexing->Embedding 
+
+It all starts with the input string which is split into smaller meaningful pieces called tokens.
+This process is called tokenization.
+These tokens are wordpieces, characters, words,numbers and punctuations using one of the many existing tokenization techniques.
+After the string is tokenized, each of these tokens is then assigned a unique integer value. 
+One-hot encoding is a binary representation of categorical values where the presence of a word is represented by 1, and its absence by 0. This ensures that the token IDs are treated as categorical values as they are, but often results in a dense vector the size of the vocabulary corpus. 
+
+Word Embeddings
+Word2Vec is a family of model architectures that operates on the principle of the semantic meaning of a word is defined by its neighbors. 
+
+GloVe is a word embedding technique that leverages both global and loval statistics of words. 
+
+SWIVEL is another approach which leverages the co-occurence matrix to learn word embeddings. Skip-Window Vectors with Negative Sampling
+
+Document Embeddings 
+shallow bag of word models and deeper pretrained large language models.
+
+Doc2Vec
+
+Deeper pretrained large language models
+
+Image and multimodal embeddings 
+
+Structured data embeddings 
+
+General structured data
+
+User/item strucuted data
+
+Graph embeddings are another embedding technique that lets you represent not only information about a specific object 
+
+Training Embeddings
+
+Vector Search:
+
+allows you to go beyond searching for exact query literals and allows you to serach for the meaning across various data modalities. 
+
+Important vector search algorithms 
+
+Locality sensitive hashing and trees
+
+ScaNN - Scalable approximate nearest neighbor 
+
+Vector Databases
+
+
