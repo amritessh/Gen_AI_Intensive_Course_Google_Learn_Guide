@@ -1,0 +1,9 @@
+Potential of fine tuning LLMs to address specific problems within specialized fields.
+Cybersecurity and Medicine. 
+
+SecLM and the future of Cybersecurity
+Threats, toil and talent
+
+MedLM and the future of health tech
+The potential for GenAI in medical Q&and
+
