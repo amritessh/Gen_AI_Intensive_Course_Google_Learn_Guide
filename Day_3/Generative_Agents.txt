@@ -1,0 +1,40 @@
+Combination of reasoning, logic and access to external information that are all connected to a Generative AI model invokes the concept of an agent, or a program that extends beyond the standalone capabilities of a Generative AI model.
+
+Generative AI agent can be defined as an application that attempts to achieve a goal by observing the world and acting upon it using the tools that it has at its disposal. Agents are autonomous and can act independently of human intervention, especially when provided with proper goals or objectives they are meant to achieve. 
+
+The tools:
+
+The orchestration layer
+
+Agents vs Models
+
+Question
+Thought
+Action 
+Action input
+Observation
+Final answer
+
+Tools: Our keys to the outside world
+
+Three primary tool types that models are able to interact with: Extensions, Functions, and Data stores.
+
+The easiest way to understand extensions is to think of them as bridging the gap between an API and an agent  in a standardized way, allowing agents to seamlessly execute APIs regardless of their underlying implementation.
+
+Functions work similarly in the world of agents, but we can replace the software developer with a model. A model can take a set of known functions and decide when to use each function and what arguments the Function needs based on its specification.
+Functions differ from Extensions in a few ways, most notably:
+A model outputs a Function and its arguments, but doesn't make a live API call.
+Functions are executed on the client-side, while extensions are executed on the agent-side.
+
+Use cases
+
+Data stores
+Imagine a language model as a vast library of books, containing its training data. But unlike a library that continuously acquires new volumes, this one remains tatic, holding only the knowledge it was initially trained on. This presents a challenge, as real-world knowledge is constantly evolving. Data stores address this limitation by providing access to more dynamic and up-to-date infoamtion, and ensuring a model's responses remain grounded in facutality and relevance. 
+
+Data store converts the incoming document into a set of vector database embeddings that the agent can use to extract the information it needs to supplement its next action or response to the user. 
+
+Implementation and application
+
+Enhancing model performance with targeted learning.
+Agent quick start with Langchain
+
