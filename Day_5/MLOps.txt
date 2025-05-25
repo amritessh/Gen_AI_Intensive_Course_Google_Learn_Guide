@@ -1,0 +1,5 @@
+https://www.kaggle.com/learn-guide/5-day-genai
+The core component of LLM Systems: A prompted model component
+
+Chain& Augment
+
